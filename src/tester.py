@@ -141,11 +141,11 @@ def draw_circle(event,x,y,flags,param):
 
     elif event == cv2.EVENT_MOUSEMOVE:
         if drawing == True:
-            cv2.circle(img,(x,y),10,(0,0,0),-1)
+            cv2.circle(img,(x,y),16,(0,0,0),-1)
 
     elif event == cv2.EVENT_LBUTTONUP:
         drawing = False
-        cv2.circle(img,(x,y),10,(0,0,0),-1)
+        cv2.circle(img,(x,y),16,(0,0,0),-1)
 
 def clearBoard(img):
     cv2.rectangle(img, (0,0), (255, 255), (255, 255, 255), -1)
