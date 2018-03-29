@@ -1,4 +1,4 @@
-# Code samples for "Neural Networks and Deep Learning"
+# Handwriting Recognition using Feedforward Artificial Neural Networks
 
 A program adapted from that of @mnielsen to input a user-drawn digit through a simple GUI and determine the digit written using artificial neural networks.
 
